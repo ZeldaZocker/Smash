@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  bulletPrefab: {fileID: 1666031268372058, guid: bd311efa37a1d6048b341af36e2b54c8,
+  bulletPrefab: {fileID: 1832575836530910, guid: bd311efa37a1d6048b341af36e2b54c8,
     type: 2}
   bulletSpawn: {fileID: 4558882874786658}
 --- !u!114 &114821981906462890
