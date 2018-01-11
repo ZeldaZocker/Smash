@@ -8,7 +8,7 @@ public class destroy_boundary : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            other.transform.position = new Vector3(0, 9, -9);
+            other.transform.position = new Vector3(0, 8.8f, -8.6f);
             other.GetComponent<jump>().grounded = true;
             other.GetComponent<jump>().doubleJump = true;
             //Destroy(other.gameObject);
