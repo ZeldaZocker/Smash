@@ -2,12 +2,12 @@
 
 public class MusicScript : MonoBehaviour
 {
-    AudioSource m_MyAudioSource;
+    public AudioSource m_MyAudioSource;
 
     //Play the music
-    bool m_Play;
+    public bool m_Play;
     //Detect when you use the toggle, ensures music isn’t played multiple times
-    bool m_ToggleChange = false;
+    public bool m_ToggleChange = false;
 
     void Start()
     {
@@ -37,7 +37,7 @@ public class MusicScript : MonoBehaviour
         }
     }
 
-    void OnGUI()
+    public void OnGUI()
     {
         //Switch this toggle to activate and deactivate the parent GameObject
         m_Play = GUI.Toggle(new Rect(12, 40, 100, 25), m_Play, "Play Music");
